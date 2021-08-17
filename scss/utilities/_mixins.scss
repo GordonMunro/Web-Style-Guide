@@ -1,0 +1,12 @@
+// =================================
+// Mixins
+// =================================
+@mixin bg-hover {
+    transition: background-color 0.5s ease-in; 
+}
+@mixin center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    @content;
+}
